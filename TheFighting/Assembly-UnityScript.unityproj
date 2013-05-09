@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{CFDBEAE9-DB58-ABEE-E923-186C8C64346B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_0_1;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\2D Platform\Warrior\AttackHitInfoJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\2D Platform\Warrior\WarriorControllerJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\2D Platform\mummy\MummyControllerJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\AnimationCrossFade_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\AnimationMixing_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\AnimationPlayQueued_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\CharacterAnimation\Bullet_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\CharacterAnimation\Character_Controller_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Animation Blending\MergeAnimation_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Collision\CollisionSpriteAnimationCompoentBBJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Collision\CollisionSpriteAnimationComponentBBExampleJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Collision\CollisionSpriteRendererAABBJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Multi Animations\Easy2DDemo_CharacterActor_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Multi Animations\Easy2DDemo_CharacterSpawn_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\ProceduralAnimationJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Simple Animations\Easy2DDemo_AnimationDemo_JS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\UnloadResourceJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Utility\BehaviourControllerJS\BehaviourControllerHolderJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Utility\BehaviourControllerJS\BehaviourControllerJS.js" />
+     <Compile Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\scripts\JavaScript\Utility\BehaviourControllerJS\StateTransitionTableAssetJS.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ObliqueNear.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\PlayerRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RollABall.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RotationConstraint.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SidescrollControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\External\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\External\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\External\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\External\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\External\EasyMotion2D\Resource\Shader\Easy2D.AlphaBlend.shader" />
+     <None Include="Assets\External\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\External\SmoothMoves\readme.txt" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\External\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\External\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\External\EasyMotion2D\EasyMotion2D.Demo\resources\RenderMode\Easy2D.AlphaBlend2X.shader" />
+     <None Include="Assets\External\EasyMotion2D\Resource\Shader\Easy2D.SoftAdditive.shader" />
+     <None Include="Assets\External\EasyMotion2D\Resource\Shader\Easy2D.AlphaBlend2X.shader" />
+     <None Include="Assets\External\EasyMotion2D\Resource\Shader\Easy2D.AlphaKey.shader" />
+     <None Include="Assets\External\EasyMotion2D\Resource\Shader\Easy2D.Additive.shader" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\External\NGUI\ReadMe - 2.5.1.txt" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\External\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\External\NGUI\Examples\Other\French.txt" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\External\NGUI\Examples\Other\Korea.txt" />
+     <None Include="Assets\External\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\External\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\External\EasyMotion2D\Resource\Shader\Easy2D.AlphaBlendPremultiply.shader" />
+     <None Include="Assets\External\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\External\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\External\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+ <Reference Include="EasyMotion2D.Runtime">
+ <HintPath>Assets\External\EasyMotion2D\Runtime\EasyMotion2D.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SmoothMoves_Runtime">
+ <HintPath>Assets\External\SmoothMoves\Plugins\SmoothMoves\SmoothMoves_Runtime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{0B41116D-1B27-DE9B-5C59-BF328E89EC71}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,9 @@
+Flag = Flag-US
+Language = English
+English = English
+French = Français
+Info = Localization example
+Sound = Sound
+Music = Music
+Desc = English localization
+Paragraph = showmethemoney
